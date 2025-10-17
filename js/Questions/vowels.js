@@ -1,4 +1,4 @@
-let count="hEllATUo"
+let count="anju is pretty"
 let str=count.toLocaleLowerCase()
 
 for(i=0;i<=str.length;i++)
