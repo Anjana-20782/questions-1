@@ -7,7 +7,14 @@ console.log(numbers);                               // 45
 
 
 
+let string = "anjana45g";
+let number = "";
 
+for (let i = 0; i < string.length; i++) {
+  if (!isNaN(string[i]) && string[i] !== " ") {          // 45
+    number += string[i];
+  }
+}
 
 
 
